@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <header>
+    <h1>Cetak Pengembalian Barang Sekolah</h1>
+  </header>
+
+  <section>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID Pengembalian</th>
+          <th>Tanggal Mulai Pinjam</th>
+          <th>Tanggal Batas Kembali</th>
+          <th>Tanggal Pengembalian</th>
+          <th>Nama Peminjam</th>
+          <th>Kelas</th>
+          <th>Jurusan</th>
+          <th>Ruang</th>
+          <th>Barang Dipinjam</th>
+          <th>Nomor Serial</th>
+          <th>Kategori Barang</th>
+          <th>Lokasi Penyimpanan Barang</th>
+          <th>Anggota Peminjam</th>
+          <th>Status Pengembalian</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach ($report as $rp)
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        @endforeach
+      </tbody>
+    </table>
+  </section>
+
+  </body>
+</html>
